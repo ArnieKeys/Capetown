@@ -1,0 +1,135 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #a8dadc;
+  font-family: 'Oxygen', sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+.hero-section {
+  width: 695px;
+  height: 400px;
+  background-image: url("images/capetown.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 5px;
+  margin-bottom: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.header-heading {
+  width: fit-content;
+  margin-top: 5px;
+  background: #1d3557;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+h1 {
+  padding: 0 10px 0 10px;
+  color: #f1faee;
+  text-shadow: 0 0 1px #f1faee;
+}
+
+.header-subheading {
+  width: 100%;
+  background: #1d3557;
+  opacity: 0.7;
+  display:block;
+}
+h2 {
+  color: #f1faee;
+  text-shadow: 0 0 1px #f1faee;
+}
+.header-subheading:hover{
+    display: none;
+}
+
+.activity-section {
+  width: 695px;
+  margin: 0 auto 0 auto;
+  background: #457b9d;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-sizing: border-box;
+}
+.activity-img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.activity-img-seperate {
+  width: 150px;
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+img {
+  width: 110px;
+  border-radius: 50%;
+}
+span {
+  color: #f1faee;
+  text-shadow: 0 0 1px #f1faee;
+}
+
+.link-util:hover{
+    padding: 3px;
+    border-radius: 8px;
+    background: #7acacd;
+}
+
+.guide-section {
+  width: 695px;
+  margin: 30px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.personal-guide {
+  width: 60%;
+  height: 180px;
+  box-sizing: border-box;
+  padding: 6px;
+  background: #457b9d;
+  color: #f1faee;
+  font-size: 1.2rem;
+  text-shadow: 0 0 1px #f1faee;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.guide-img {
+  height: 180px;
+  box-sizing: border-box;
+  padding: 10px;
+  background: #457b9d;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
